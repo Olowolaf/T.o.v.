@@ -1,0 +1,49 @@
+/* Custom global styles */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Logo enhancements */
+img[alt="T.O.V Logo"] {
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+}
+
+/* Hero Section */
+.hero-text h1 {
+  letter-spacing: 2px;
+}
+
+/* Button transitions */
+a, button {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effects */
+a:hover, button:hover {
+  transform: scale(1.02);
+}
+
+/* Custom shadows for cards */
+.hover\\:shadow-lg:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Instagram placeholder blocks */
+.bg-gray-300 {
+  background: linear-gradient(135deg, #e0e0e0, #cfcfcf);
+}
+
+/* Newsletter form */
+input[type="email"]::placeholder {
+  color: #777;
+  font-style: italic;
+}
+
+/* Responsive padding adjustments */
+@media (max-width: 640px) {
+  section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
